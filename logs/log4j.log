@@ -1,0 +1,17 @@
+[ERROR] 2023-06-03 15:09:52.058 [main] SqlExceptionHelper - ERROR: syntax error at or near "USER"
+  Position: 56
+[ERROR] 2023-06-03 15:53:56.262 [main] SqlExceptionHelper - ERROR: column u1_0.username does not exist
+  Position: 8
+[ERROR] 2023-06-03 16:05:39.113 [main] SqlExceptionHelper - ERROR: syntax error at or near "USER"
+  Position: 56
+[ERROR] 2023-06-03 16:11:27.803 [main] SqlExceptionHelper - ERROR: syntax error at or near "USER"
+  Position: 56
+[ERROR] 2023-06-03 16:14:14.220 [main] SqlExceptionHelper - ERROR: syntax error at or near "user"
+  Position: 56
+[ERROR] 2023-06-03 16:31:55.517 [main] SqlExceptionHelper - Syntax error in SQL statement "/* insert for org.sm.backend.entity.User */insert into [*]USER (passwordHash,salt,username) values (?,?,?)"; expected "identifier"; SQL statement:
+/* insert for org.sm.backend.entity.User */insert into USER (passwordHash,salt,username) values (?,?,?) [42001-214]
+[ERROR] 2023-06-03 16:35:47.330 [main] SqlExceptionHelper - Syntax error in SQL statement "insert into [*]USER (passwordHash,salt,username) values (?,?,?)"; expected "identifier"; SQL statement:
+insert into USER (passwordHash,salt,username) values (?,?,?) [42001-214]
+[ERROR] 2023-06-04 07:29:20.354 [main] UserService - User already exists
+[ERROR] 2023-06-04 07:33:30.231 [main] UserService - User already exists
+[ERROR] 2023-06-04 13:45:46.244 [main] SqlExceptionHelper - Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
